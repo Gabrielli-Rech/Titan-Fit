@@ -1,0 +1,118 @@
+/* Estilização Geral */
+
+h1, h2 {
+    text-align: center;
+    color: #0CB0F0;
+}
+
+/* Estilo da seção de produtos */
+/* Seção de Produtos */
+.produtos {
+    padding: 2rem;
+    text-align: center;
+}
+
+.produtos h1 {
+    font-size: 2.5rem;
+    color: #6200DB;
+    margin-bottom: 2rem;
+}
+
+/* Container de Cards */
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+/* Estilização dos Cards */
+.card {
+    background-color: #000000;
+    border-radius: 16px;
+    padding: 1rem;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.card h3 {
+    color: #6200DB;
+    font-size: 1.3rem;
+    margin-top: 0.8rem;
+}
+
+.card p {
+    color: #ffffff;
+    margin: 0.5rem 0;
+}
+
+.preco {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #0CB0F0;
+}
+
+.btn-comprar {
+    align-self: center;
+    background: linear-gradient(135deg, #8C0CF0, #6200DB);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 6px 12px rgba(140, 12, 240, 0.5);
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-comprar:hover {
+    background: linear-gradient(135deg, #0CB0F0, #002CDB);
+    box-shadow: 0 8px 16px rgba(12, 176, 240, 0.5);
+    color: white;
+}
+
+
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar-loja {
+        width: 100%;
+        height: auto;
+        position: static;
+        padding: 20px 0;
+        box-shadow: none;
+    }
+
+    .footer-loja {
+        padding: 10px;
+    }
+
+    .filtro-produto {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .filtro-produto select, .filtro-produto input {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+}
