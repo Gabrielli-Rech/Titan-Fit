@@ -1,7 +1,7 @@
 # 🏋️ Titan-Fit: Sistema de Gestão de Academia
 
 <p align="center">
-  <img src="App/View/Imagens/logo.png" alt="Logo Titan-Fit" width="200">
+  <img src="https://github.com/user-attachments/assets/fb12e53d-0a2a-48af-9322-3d9db9a25378" alt="Titan-Fit" width="450" />
 </p>
 
 Bem-vindo ao **Titan-Fit**, o sistema definitivo para gestão de academias! Desenvolvido em PHP com MySQL, este projeto foi criado para automatizar e otimizar o gerenciamento de alunos, treinos e pagamentos. Ideal para quem busca eficiência e organização no mundo fitness.
